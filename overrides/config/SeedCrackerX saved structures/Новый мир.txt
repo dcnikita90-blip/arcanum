@@ -1,0 +1,6 @@
+monument;55;6
+null;41;0
+shipwreck;4;13
+shipwreck;0;27
+shipwreck;61;15
+shipwreck;38;-8
