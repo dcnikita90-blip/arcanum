@@ -1,11 +1,11 @@
 {
-  "name": "Fabric 1.21.11 Pack",
-  "description": "Сборка Minecraft Fabric 1.21.11. Добавляй совместимые Fabric-моды и конфиги в папку overrides.",
+  "name": "Forge 1.20.1 Pack",
+  "description": "Чистая база Minecraft Forge 1.20.1. Добавляй совместимые Forge-моды и конфиги в папку overrides.",
   "overridesDir": "overrides",
   "minecraft": {
-    "version": "1.21.11",
+    "version": "1.20.1",
     "type": "release",
-    "fabricLoader": "0.18.5"
+    "forgeInstaller": "installers/forge-1.20.1-47.4.10-installer.jar"
   },
   "launch": {
     "minMemoryGb": 2,
@@ -20,7 +20,8 @@
   },
   "patchesFile": "patches.json",
   "news": [
-    "Базовый экземпляр Fabric 1.21.11 готов.",
-    "Добавляй совместимые Fabric-моды, конфиги и ресурспаки в папку overrides."
+    "Базовый экземпляр Forge 1.20.1 готов.",
+    "Сборка очищена от старых модов и конфигов.",
+    "Добавляй совместимые Forge-моды, конфиги и ресурспаки в папку overrides."
   ]
 }
