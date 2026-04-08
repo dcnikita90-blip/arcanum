@@ -1,2 +1,10 @@
-overrides/mods/mcef-libraries/windows_amd64/libcef.dll
+overrides/mods/mcef-cache/
 overrides/mods/mcef-libraries/
+overrides/crash-reports/
+overrides/logs/
+overrides/libraries/
+overrides/versions/
+overrides/saves/
+overrides/fancymenu_data/
+overrides/usercache.json
+overrides/usernamecache.json

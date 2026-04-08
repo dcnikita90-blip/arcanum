@@ -1,11 +1,11 @@
 {
-  "name": "Forge 1.20.1 Pack",
-  "description": "Чистая база Minecraft Forge 1.20.1. Добавляй совместимые Forge-моды и конфиги в папку overrides.",
+  "name": "Arcanum Forge 1.20.1",
+  "description": "Сборка Arcanum на Forge 1.20.1, импортированная из локального инстанса 1.20.1-1.",
   "overridesDir": "overrides",
   "minecraft": {
     "version": "1.20.1",
     "type": "release",
-    "forgeInstaller": "installers/forge-1.20.1-47.4.10-installer.jar"
+    "forgeInstaller": "installers/forge-1.20.1-47.4.18-installer.jar"
   },
   "launch": {
     "minMemoryGb": 2,
@@ -20,8 +20,8 @@
   },
   "patchesFile": "patches.json",
   "news": [
-    "Базовый экземпляр Forge 1.20.1 готов.",
-    "Сборка очищена от старых модов и конфигов.",
-    "Добавляй совместимые Forge-моды, конфиги и ресурспаки в папку overrides."
+    "Импортирована актуальная локальная сборка из инстанса 1.20.1-1.",
+    "В репозиторий загружены моды, конфиги, ресурспаки, шейдеры и пользовательские настройки.",
+    "MCEF runtime и служебные кэши исключены из сборки и будут догружаться локально при необходимости."
   ]
 }
