@@ -1,0 +1,1880 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "alexscaves:desolate_dagger": [
+      22468,
+      4.753436
+    ],
+    "aquaculture:diamond_fillet_knife": [
+      23150,
+      2.3810277
+    ],
+    "aquaculture:gold_fillet_knife": [
+      25108,
+      0.0039999997
+    ],
+    "aquaculture:iron_fillet_knife": [
+      24826,
+      0.0322
+    ],
+    "aquaculture:neptunium_axe": [
+      21925,
+      5.9057183
+    ],
+    "aquaculture:neptunium_bow": [
+      18348,
+      13.389866
+    ],
+    "aquaculture:neptunium_fillet_knife": [
+      25139,
+      8.999999E-4
+    ],
+    "aquaculture:neptunium_sword": [
+      21991,
+      5.767269
+    ],
+    "aquaculture:stone_fillet_knife": [
+      24980,
+      0.0168
+    ],
+    "aquaculture:wooden_fillet_knife": [
+      25074,
+      0.0074
+    ],
+    "aquaculturedelight:neptunium_knife": [
+      22051,
+      5.6411676
+    ],
+    "bloodmagic:soulaxe": [
+      24264,
+      0.93313384
+    ],
+    "bloodmagic:soulsword": [
+      24264,
+      0.93313384
+    ],
+    "born_in_chaos_v1:birch_branches": [
+      24624,
+      0.40784094
+    ],
+    "born_in_chaos_v1:carrot_sword": [
+      24051,
+      1.2063804
+    ],
+    "born_in_chaos_v1:dark_ritual_dagger": [
+      23893,
+      1.4096019
+    ],
+    "born_in_chaos_v1:darkwarblade": [
+      17952,
+      14.226674
+    ],
+    "born_in_chaos_v1:frostbitten_blade": [
+      23213,
+      2.2976365
+    ],
+    "born_in_chaos_v1:great_reaper_axe": [
+      23089,
+      3.1486528
+    ],
+    "born_in_chaos_v1:icy_sweetness": [
+      21683,
+      6.411711
+    ],
+    "born_in_chaos_v1:intoxicating_dagger": [
+      23213,
+      2.2976365
+    ],
+    "born_in_chaos_v1:nightmare_scythe": [
+      23806,
+      1.5219555
+    ],
+    "born_in_chaos_v1:nut_hammer": [
+      24679,
+      0.0469
+    ],
+    "born_in_chaos_v1:sharpened_dark_metal_sword": [
+      23188,
+      2.330707
+    ],
+    "born_in_chaos_v1:shell_mace": [
+      24349,
+      0.8234185
+    ],
+    "born_in_chaos_v1:skullbreaker_hammer": [
+      22028,
+      5.689535
+    ],
+    "born_in_chaos_v1:soul_cutlass": [
+      23893,
+      1.4096019
+    ],
+    "born_in_chaos_v1:soulbane": [
+      19812,
+      10.312961
+    ],
+    "born_in_chaos_v1:spider_bite_sword": [
+      23213,
+      2.2976365
+    ],
+    "born_in_chaos_v1:spiritual_sword": [
+      24254,
+      0.94598794
+    ],
+    "born_in_chaos_v1:supreme_measure": [
+      2,
+      53.470917
+    ],
+    "born_in_chaos_v1:sweet_axe": [
+      23976,
+      1.3027282
+    ],
+    "born_in_chaos_v1:sweet_sword": [
+      24051,
+      1.2063804
+    ],
+    "born_in_chaos_v1:trident_hayfork": [
+      24537,
+      0.56912816
+    ],
+    "born_in_chaos_v1:wood_splitter_axe": [
+      24500,
+      0.6222344
+    ],
+    "cataclysm:athame": [
+      24679,
+      0.0469
+    ],
+    "cataclysm:black_steel_axe": [
+      23721,
+      1.6320775
+    ],
+    "cataclysm:black_steel_sword": [
+      23808,
+      1.5193686
+    ],
+    "cataclysm:final_fractal": [
+      13586,
+      23.563541
+    ],
+    "cataclysm:khopesh": [
+      23829,
+      1.4922183
+    ],
+    "cataclysm:zweiender": [
+      13586,
+      23.563541
+    ],
+    "enigmaticlegacy:ender_slayer": [
+      21629,
+      6.5243726
+    ],
+    "enigmaticlegacy:etherium_axe": [
+      19756,
+      10.430168
+    ],
+    "enigmaticlegacy:etherium_scythe": [
+      19896,
+      10.137218
+    ],
+    "enigmaticlegacy:etherium_sword": [
+      19812,
+      10.312961
+    ],
+    "enigmaticlegacy:forbidden_axe": [
+      21559,
+      6.670325
+    ],
+    "epicfight:bokken": [
+      25021,
+      0.0127
+    ],
+    "epicfight:diamond_dagger": [
+      22451,
+      4.790248
+    ],
+    "epicfight:diamond_greatsword": [
+      22221,
+      5.2822285
+    ],
+    "epicfight:diamond_longsword": [
+      22376,
+      4.951788
+    ],
+    "epicfight:diamond_spear": [
+      22405,
+      4.889481
+    ],
+    "epicfight:diamond_tachi": [
+      22376,
+      4.951788
+    ],
+    "epicfight:glove": [
+      24701,
+      0.044699997
+    ],
+    "epicfight:golden_dagger": [
+      25089,
+      0.0058999998
+    ],
+    "epicfight:golden_greatsword": [
+      24858,
+      0.028999997
+    ],
+    "epicfight:golden_longsword": [
+      25050,
+      0.009799999
+    ],
+    "epicfight:golden_spear": [
+      25067,
+      0.0081
+    ],
+    "epicfight:golden_tachi": [
+      25050,
+      0.009799999
+    ],
+    "epicfight:iron_dagger": [
+      24696,
+      0.045199998
+    ],
+    "epicfight:iron_greatsword": [
+      24465,
+      0.670341
+    ],
+    "epicfight:iron_longsword": [
+      24633,
+      0.37663084
+    ],
+    "epicfight:iron_spear": [
+      24658,
+      0.049
+    ],
+    "epicfight:iron_tachi": [
+      24633,
+      0.37663084
+    ],
+    "epicfight:netherite_dagger": [
+      21631,
+      6.5202
+    ],
+    "epicfight:netherite_greatsword": [
+      21404,
+      6.9932466
+    ],
+    "epicfight:netherite_longsword": [
+      21544,
+      6.701589
+    ],
+    "epicfight:netherite_spear": [
+      21577,
+      6.632802
+    ],
+    "epicfight:netherite_tachi": [
+      21544,
+      6.701589
+    ],
+    "epicfight:stone_dagger": [
+      24912,
+      0.023599999
+    ],
+    "epicfight:stone_greatsword": [
+      24680,
+      0.0468
+    ],
+    "epicfight:stone_longsword": [
+      24861,
+      0.028699998
+    ],
+    "epicfight:stone_spear": [
+      24882,
+      0.026599998
+    ],
+    "epicfight:stone_tachi": [
+      24861,
+      0.028699998
+    ],
+    "epicfight:uchigatana": [
+      22296,
+      5.1228175
+    ],
+    "epicfight:wooden_dagger": [
+      25043,
+      0.010499999
+    ],
+    "epicfight:wooden_greatsword": [
+      24812,
+      0.0336
+    ],
+    "epicfight:wooden_longsword": [
+      25004,
+      0.014399999
+    ],
+    "epicfight:wooden_spear": [
+      25021,
+      0.0127
+    ],
+    "epicfight:wooden_tachi": [
+      25004,
+      0.014399999
+    ],
+    "irons_spellbooks:amethyst_rapier": [
+      21577,
+      6.632802
+    ],
+    "irons_spellbooks:autoloader_crossbow": [
+      22874,
+      3.826627
+    ],
+    "irons_spellbooks:boreal_blade": [
+      21404,
+      6.9932466
+    ],
+    "irons_spellbooks:claymore": [
+      23259,
+      2.236861
+    ],
+    "irons_spellbooks:decrepit_scythe": [
+      23218,
+      2.2910256
+    ],
+    "irons_spellbooks:hellrazor": [
+      21450,
+      6.8974404
+    ],
+    "irons_spellbooks:keeper_flamberge": [
+      23218,
+      2.2910256
+    ],
+    "irons_spellbooks:legionnaire_flamberge": [
+      21466,
+      6.8641124
+    ],
+    "irons_spellbooks:magehunter": [
+      22405,
+      4.889481
+    ],
+    "irons_spellbooks:misery": [
+      23226,
+      2.280451
+    ],
+    "irons_spellbooks:spellbreaker": [
+      21507,
+      6.778693
+    ],
+    "irons_spellbooks:twilight_gale": [
+      21450,
+      6.8974404
+    ],
+    "magical_relics:diamond_axe_artifact": [
+      22343,
+      5.022479
+    ],
+    "magical_relics:gold_axe_artifact": [
+      25004,
+      0.014399999
+    ],
+    "magical_relics:iron_axe_artifact": [
+      24571,
+      0.51635593
+    ],
+    "magical_relics:stone_axe_artifact": [
+      24774,
+      0.0374
+    ],
+    "magical_relics:wood_axe_artifact": [
+      24958,
+      0.019
+    ],
+    "majruszsdifficulty:enderium_axe": [
+      21280,
+      7.2514286
+    ],
+    "majruszsdifficulty:enderium_sword": [
+      21327,
+      7.15358
+    ],
+    "majruszsdifficulty:wither_sword": [
+      24446,
+      0.6959233
+    ],
+    "minecraft:bow": [
+      22580,
+      4.508568
+    ],
+    "minecraft:crossbow": [
+      22874,
+      3.826627
+    ],
+    "minecraft:diamond_axe": [
+      22343,
+      5.022479
+    ],
+    "minecraft:diamond_sword": [
+      22405,
+      4.889481
+    ],
+    "minecraft:enchanted_book": [
+      23548,
+      1.8573177
+    ],
+    "minecraft:golden_axe": [
+      25004,
+      0.014399999
+    ],
+    "minecraft:golden_sword": [
+      25067,
+      0.0081
+    ],
+    "minecraft:iron_axe": [
+      24571,
+      0.51635593
+    ],
+    "minecraft:iron_sword": [
+      24658,
+      0.049
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      23648,
+      1.7269388
+    ],
+    "minecraft:netherite_axe": [
+      21507,
+      6.778693
+    ],
+    "minecraft:netherite_sword": [
+      21577,
+      6.632802
+    ],
+    "minecraft:snowball": [
+      24598,
+      0.46844563
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      23648,
+      1.7269388
+    ],
+    "minecraft:stone_axe": [
+      24774,
+      0.0374
+    ],
+    "minecraft:stone_sword": [
+      24882,
+      0.026599998
+    ],
+    "minecraft:tnt": [
+      23448,
+      1.9881918
+    ],
+    "minecraft:trident": [
+      22648,
+      4.357304
+    ],
+    "minecraft:wooden_axe": [
+      24958,
+      0.019
+    ],
+    "minecraft:wooden_sword": [
+      25021,
+      0.0127
+    ],
+    "naturesaura:depth_axe": [
+      20668,
+      8.525718
+    ],
+    "naturesaura:depth_sword": [
+      20746,
+      8.363213
+    ],
+    "naturesaura:infused_iron_axe": [
+      24571,
+      0.51635593
+    ],
+    "naturesaura:infused_iron_sword": [
+      24658,
+      0.049
+    ],
+    "naturesaura:sky_axe": [
+      22446,
+      4.8010597
+    ],
+    "naturesaura:sky_sword": [
+      22508,
+      4.666484
+    ],
+    "somakespells:aquamancer_staff": [
+      24658,
+      0.049
+    ],
+    "somakespells:boltcutter_dagger": [
+      24571,
+      0.51635593
+    ],
+    "somakespells:centauri": [
+      24487,
+      0.6402826
+    ],
+    "somakespells:clef_sword": [
+      24477,
+      0.65401256
+    ],
+    "somakespells:core_splitter": [
+      21358,
+      7.0890346
+    ],
+    "somakespells:exo_dual_saber": [
+      24723,
+      0.0425
+    ],
+    "somakespells:exo_light_saber": [
+      24723,
+      0.0425
+    ],
+    "somakespells:flare_dual_saber": [
+      24723,
+      0.0425
+    ],
+    "somakespells:flare_light_saber": [
+      24723,
+      0.0425
+    ],
+    "somakespells:forbidden_hammer": [
+      24409,
+      0.7450327
+    ],
+    "somakespells:frostflow_dual_saber": [
+      24723,
+      0.0425
+    ],
+    "somakespells:frostflow_light_saber": [
+      24723,
+      0.0425
+    ],
+    "somakespells:glacium_greataxe": [
+      21358,
+      7.0890346
+    ],
+    "somakespells:hallow_sword": [
+      24477,
+      0.65401256
+    ],
+    "somakespells:last_mourning": [
+      24487,
+      0.6402826
+    ],
+    "somakespells:plague_dual_saber": [
+      24723,
+      0.0425
+    ],
+    "somakespells:plague_light_saber": [
+      24723,
+      0.0425
+    ],
+    "somakespells:radiant_judgment": [
+      24449,
+      0.69190335
+    ],
+    "somakespells:rock_sword": [
+      24449,
+      0.69190335
+    ],
+    "somakespells:ruined_blade": [
+      24487,
+      0.6402826
+    ],
+    "somakespells:scorn": [
+      24487,
+      0.6402826
+    ],
+    "somakespells:sculkborne_axe": [
+      24449,
+      0.69190335
+    ],
+    "somakespells:tide_piercer": [
+      24571,
+      0.51635593
+    ],
+    "somakespells:totem_dagger": [
+      24604,
+      0.45638117
+    ],
+    "somakespells:witherite_glaive": [
+      21404,
+      6.9932466
+    ],
+    "traveloptics:abyssal_tidecaller": [
+      20857,
+      8.132025
+    ],
+    "traveloptics:abyssal_tidecaller_level_one": [
+      20857,
+      8.132025
+    ],
+    "traveloptics:abyssal_tidecaller_level_three": [
+      20857,
+      8.132025
+    ],
+    "traveloptics:abyssal_tidecaller_level_two": [
+      20857,
+      8.132025
+    ],
+    "traveloptics:charged_sands": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:charged_sands_level_one": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:charged_sands_level_three": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:charged_sands_level_two": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:cursed_wraithblade": [
+      20985,
+      7.8655133
+    ],
+    "traveloptics:cursed_wraithblade_level_one": [
+      20985,
+      7.8655133
+    ],
+    "traveloptics:cursed_wraithblade_level_three": [
+      20985,
+      7.8655133
+    ],
+    "traveloptics:cursed_wraithblade_level_two": [
+      20985,
+      7.8655133
+    ],
+    "traveloptics:flames_of_eldritch": [
+      21049,
+      7.7322817
+    ],
+    "traveloptics:flames_of_eldritch_level_one": [
+      21049,
+      7.7322817
+    ],
+    "traveloptics:flames_of_eldritch_level_three": [
+      21049,
+      7.7322817
+    ],
+    "traveloptics:flames_of_eldritch_level_two": [
+      21049,
+      7.7322817
+    ],
+    "traveloptics:galenic_polarizer": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:galenic_polarizer_level_one": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:galenic_polarizer_level_three": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:galenic_polarizer_level_two": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:gauntlet_of_extinction": [
+      21031,
+      7.769752
+    ],
+    "traveloptics:gauntlet_of_extinction_level_one": [
+      21031,
+      7.769752
+    ],
+    "traveloptics:gauntlet_of_extinction_level_three": [
+      21031,
+      7.769752
+    ],
+    "traveloptics:gauntlet_of_extinction_level_two": [
+      21031,
+      7.769752
+    ],
+    "traveloptics:harbingers_wrath": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:harbingers_wrath_level_one": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:harbingers_wrath_level_three": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:harbingers_wrath_level_two": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:infernal_devastator": [
+      21009,
+      7.8155503
+    ],
+    "traveloptics:infernal_devastator_level_one": [
+      21009,
+      7.8155503
+    ],
+    "traveloptics:infernal_devastator_level_three": [
+      21009,
+      7.8155503
+    ],
+    "traveloptics:infernal_devastator_level_two": [
+      21009,
+      7.8155503
+    ],
+    "traveloptics:mechanized_wraithblade": [
+      20985,
+      7.8655133
+    ],
+    "traveloptics:mechanized_wraithblade_level_one": [
+      20985,
+      7.8655133
+    ],
+    "traveloptics:mechanized_wraithblade_level_three": [
+      20985,
+      7.8655133
+    ],
+    "traveloptics:mechanized_wraithblade_level_two": [
+      20985,
+      7.8655133
+    ],
+    "traveloptics:scourge_of_the_sands": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:scourge_of_the_sands_level_one": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:scourge_of_the_sands_level_three": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:scourge_of_the_sands_level_two": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:stellothorn": [
+      19582,
+      10.794593
+    ],
+    "traveloptics:stellothorn_level_one": [
+      19582,
+      10.794593
+    ],
+    "traveloptics:stellothorn_level_three": [
+      19582,
+      10.794593
+    ],
+    "traveloptics:stellothorn_level_two": [
+      19582,
+      10.794593
+    ],
+    "traveloptics:the_obliterator": [
+      21049,
+      7.7322817
+    ],
+    "traveloptics:the_obliterator_level_one": [
+      21049,
+      7.7322817
+    ],
+    "traveloptics:the_obliterator_level_three": [
+      21049,
+      7.7322817
+    ],
+    "traveloptics:the_obliterator_level_two": [
+      21049,
+      7.7322817
+    ],
+    "traveloptics:thorns_of_oblivion": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:thorns_of_oblivion_level_one": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:thorns_of_oblivion_level_three": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:thorns_of_oblivion_level_two": [
+      21065,
+      7.6989746
+    ],
+    "traveloptics:voidstrike_reaper": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:voidstrike_reaper_level_one": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:voidstrike_reaper_level_three": [
+      20927,
+      7.986267
+    ],
+    "traveloptics:voidstrike_reaper_level_two": [
+      20927,
+      7.986267
+    ]
+  },
+  "OFFHAND": {
+    "alexscaves:resistor_shield": [
+      275,
+      4.9045377
+    ],
+    "cataclysm:azure_sea_shield": [
+      1247,
+      2.0906117
+    ],
+    "cataclysm:black_steel_targe": [
+      595,
+      4.1986494
+    ],
+    "minecraft:ender_pearl": [
+      1925,
+      1.2102311
+    ],
+    "minecraft:flint_and_steel": [
+      1897,
+      1.2461817
+    ],
+    "minecraft:lava_bucket": [
+      1525,
+      1.7269388
+    ],
+    "minecraft:shield": [
+      1603,
+      1.6255897
+    ]
+  },
+  "FEET": {
+    "alexscaves:diving_boots": [
+      4153,
+      1.1178746
+    ],
+    "alexscaves:gingerbread_boots": [
+      4407,
+      0.79089624
+    ],
+    "alexscaves:hazmat_boots": [
+      4354,
+      0.85967726
+    ],
+    "alexscaves:rainbounce_boots": [
+      4794,
+      0.0387
+    ],
+    "aquaculture:neptunium_boots": [
+      3262,
+      2.2764862
+    ],
+    "bloodmagic:livingboots": [
+      4005,
+      1.3078723
+    ],
+    "born_in_chaos_v1:dark_metal_armor_boots": [
+      2225,
+      5.3436694
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_boots": [
+      3427,
+      2.0590668
+    ],
+    "cataclysm:cursium_boots": [
+      1535,
+      6.789111
+    ],
+    "cataclysm:ignitium_boots": [
+      325,
+      9.309818
+    ],
+    "enigmaticlegacy:etherium_boots": [
+      1944,
+      5.935056
+    ],
+    "irons_spellbooks:archevoker_boots": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_boots": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_boots": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_boots": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:netherite_mage_boots": [
+      3227,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_boots": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_boots": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_boots": [
+      3275,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_boots": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_boots": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:speed_boots": [
+      3226,
+      2.3240905
+    ],
+    "irons_spellbooks:wandering_magician_boots": [
+      4136,
+      1.1396724
+    ],
+    "irons_spellbooks:wizard_boots": [
+      3240,
+      2.3055708
+    ],
+    "magical_relics:diamond_boots_artifact": [
+      3327,
+      2.190684
+    ],
+    "magical_relics:gold_boots_artifact": [
+      4548,
+      0.6010664
+    ],
+    "magical_relics:iron_boots_artifact": [
+      4155,
+      1.1153103
+    ],
+    "magical_relics:leather_boots_artifact": [
+      4900,
+      0.028099999
+    ],
+    "majruszsdifficulty:enderium_boots": [
+      2750,
+      4.200942
+    ],
+    "majruszsdifficulty:tattered_boots": [
+      4875,
+      0.030599998
+    ],
+    "minecraft:chainmail_boots": [
+      4589,
+      0.540316
+    ],
+    "minecraft:diamond_boots": [
+      3673,
+      1.7373508
+    ],
+    "minecraft:golden_boots": [
+      4655,
+      0.4136078
+    ],
+    "minecraft:iron_boots": [
+      4341,
+      0.8764657
+    ],
+    "minecraft:leather_boots": [
+      4937,
+      0.0244
+    ],
+    "minecraft:netherite_boots": [
+      3546,
+      1.9030677
+    ],
+    "naturesaura:depth_shoes": [
+      2238,
+      5.316139
+    ],
+    "naturesaura:infused_iron_shoes": [
+      4068,
+      1.2269194
+    ],
+    "naturesaura:sky_shoes": [
+      3286,
+      2.2447827
+    ],
+    "somakespells:abyssium_boots": [
+      385,
+      9.184605
+    ],
+    "somakespells:aquamancer_boots": [
+      3247,
+      2.2963142
+    ],
+    "somakespells:ceranium_boots": [
+      385,
+      9.184605
+    ],
+    "somakespells:dark_metal_battlemage_boots": [
+      2376,
+      5.022479
+    ],
+    "traveloptics:abyssal_hide_armor_boots": [
+      299,
+      9.36409
+    ],
+    "traveloptics:cursed_wraithguard_boots": [
+      299,
+      9.36409
+    ],
+    "traveloptics:deepling_mage_armor_boots": [
+      3239,
+      2.3068933
+    ],
+    "traveloptics:forlorn_harbinger_boots": [
+      299,
+      9.36409
+    ],
+    "traveloptics:mechanized_exoskeleton_boots": [
+      180,
+      9.612577
+    ],
+    "traveloptics:primordial_crest_armor_boots": [
+      2889,
+      3.8715
+    ],
+    "traveloptics:riptide_sovereign_boots": [
+      299,
+      9.36409
+    ],
+    "traveloptics:tectonic_crest_armor_boots": [
+      61,
+      9.86122
+    ],
+    "wizards:arcane_robe_feet": [
+      4795,
+      0.038599998
+    ],
+    "wizards:fire_robe_feet": [
+      4795,
+      0.038599998
+    ],
+    "wizards:frost_robe_feet": [
+      4795,
+      0.038599998
+    ],
+    "wizards:netherite_arcane_robe_feet": [
+      4700,
+      0.0481
+    ],
+    "wizards:netherite_fire_robe_feet": [
+      4700,
+      0.0481
+    ],
+    "wizards:netherite_frost_robe_feet": [
+      4700,
+      0.0481
+    ],
+    "wizards:wizard_robe_feet": [
+      4870,
+      0.031099997
+    ]
+  },
+  "LEGS": {
+    "alexscaves:diving_leggings": [
+      4125,
+      1.1537791
+    ],
+    "alexscaves:gingerbread_leggings": [
+      4394,
+      0.8078281
+    ],
+    "alexscaves:hazmat_leggings": [
+      4326,
+      0.89580816
+    ],
+    "alexscaves:primordial_pants": [
+      4416,
+      0.7791448
+    ],
+    "aquaculture:neptunium_leggings": [
+      3262,
+      2.2764862
+    ],
+    "bloodmagic:livingleggings": [
+      4005,
+      1.3078723
+    ],
+    "born_in_chaos_v1:dark_metal_armor_leggings": [
+      2225,
+      5.3436694
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_leggings": [
+      3427,
+      2.0590668
+    ],
+    "cataclysm:cursium_leggings": [
+      1535,
+      6.789111
+    ],
+    "cataclysm:ignitium_leggings": [
+      325,
+      9.309818
+    ],
+    "enigmaticlegacy:etherium_leggings": [
+      1740,
+      6.361618
+    ],
+    "epicfight:stray_pants": [
+      4882,
+      0.0299
+    ],
+    "irons_spellbooks:archevoker_leggings": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_leggings": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_leggings": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_leggings": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:netherite_mage_leggings": [
+      3227,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_leggings": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_leggings": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_leggings": [
+      3275,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_leggings": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_leggings": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:wandering_magician_leggings": [
+      4136,
+      1.1396724
+    ],
+    "irons_spellbooks:wizard_leggings": [
+      3240,
+      2.3055708
+    ],
+    "magical_relics:diamond_leggings_artifact": [
+      3327,
+      2.190684
+    ],
+    "magical_relics:gold_leggings_artifact": [
+      4548,
+      0.6010664
+    ],
+    "magical_relics:iron_leggings_artifact": [
+      4155,
+      1.1153103
+    ],
+    "magical_relics:leather_leggings_artifact": [
+      4900,
+      0.028099999
+    ],
+    "majruszsdifficulty:enderium_leggings": [
+      2750,
+      4.200942
+    ],
+    "majruszsdifficulty:tattered_leggings": [
+      4875,
+      0.030599998
+    ],
+    "minecraft:chainmail_leggings": [
+      4589,
+      0.540316
+    ],
+    "minecraft:diamond_leggings": [
+      3673,
+      1.7373508
+    ],
+    "minecraft:golden_leggings": [
+      4655,
+      0.4136078
+    ],
+    "minecraft:iron_leggings": [
+      4341,
+      0.8764657
+    ],
+    "minecraft:leather_leggings": [
+      4937,
+      0.0244
+    ],
+    "minecraft:netherite_leggings": [
+      3546,
+      1.9030677
+    ],
+    "naturesaura:depth_pants": [
+      2238,
+      5.316139
+    ],
+    "naturesaura:infused_iron_pants": [
+      4068,
+      1.2269194
+    ],
+    "naturesaura:sky_pants": [
+      3286,
+      2.2447827
+    ],
+    "somakespells:abyssium_leggings": [
+      385,
+      9.184605
+    ],
+    "somakespells:aquamancer_leggings": [
+      3247,
+      2.2963142
+    ],
+    "somakespells:ceranium_leggings": [
+      385,
+      9.184605
+    ],
+    "somakespells:dark_metal_battlemage_leggings": [
+      2376,
+      5.022479
+    ],
+    "traveloptics:abyssal_hide_armor_leggings": [
+      299,
+      9.36409
+    ],
+    "traveloptics:cursed_wraithguard_spectral_wrapping": [
+      299,
+      9.36409
+    ],
+    "traveloptics:deepling_mage_armor_leggings": [
+      3239,
+      2.3068933
+    ],
+    "traveloptics:forlorn_harbinger_leggings": [
+      299,
+      9.36409
+    ],
+    "traveloptics:mechanized_exoskeleton_leggings": [
+      180,
+      9.612577
+    ],
+    "traveloptics:primordial_crest_armor_leggings": [
+      2889,
+      3.8715
+    ],
+    "traveloptics:riptide_sovereign_leggings": [
+      299,
+      9.36409
+    ],
+    "traveloptics:tectonic_crest_armor_leggings": [
+      61,
+      9.86122
+    ],
+    "wizards:arcane_robe_legs": [
+      4795,
+      0.038599998
+    ],
+    "wizards:fire_robe_legs": [
+      4795,
+      0.038599998
+    ],
+    "wizards:frost_robe_legs": [
+      4795,
+      0.038599998
+    ],
+    "wizards:netherite_arcane_robe_legs": [
+      4700,
+      0.0481
+    ],
+    "wizards:netherite_fire_robe_legs": [
+      4700,
+      0.0481
+    ],
+    "wizards:netherite_frost_robe_legs": [
+      4700,
+      0.0481
+    ],
+    "wizards:wizard_robe_legs": [
+      4870,
+      0.031099997
+    ]
+  },
+  "CHEST": {
+    "alexscaves:cloak_of_darkness": [
+      4478,
+      0.6972618
+    ],
+    "alexscaves:diving_chestplate": [
+      4141,
+      1.1332608
+    ],
+    "alexscaves:gingerbread_chestplate": [
+      4402,
+      0.7974141
+    ],
+    "alexscaves:hazmat_chestplate": [
+      4343,
+      0.87388456
+    ],
+    "alexscaves:primordial_tunic": [
+      4433,
+      0.7568712
+    ],
+    "aquaculture:neptunium_chestplate": [
+      3262,
+      2.2764862
+    ],
+    "bloodmagic:livingplate": [
+      4005,
+      1.3078723
+    ],
+    "born_in_chaos_v1:dark_metal_armor_chestplate": [
+      2225,
+      5.3436694
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate": [
+      3427,
+      2.0590668
+    ],
+    "born_in_chaos_v1:spiny_shell_armor_chestplate": [
+      4591,
+      0.53719383
+    ],
+    "cataclysm:bloom_stone_pauldrons": [
+      3146,
+      3.0056863
+    ],
+    "cataclysm:bone_reptile_chestplate": [
+      1366,
+      7.1410875
+    ],
+    "cataclysm:cursium_chestplate": [
+      1535,
+      6.789111
+    ],
+    "cataclysm:ignitium_chestplate": [
+      325,
+      9.309818
+    ],
+    "cataclysm:ignitium_elytra_chestplate": [
+      325,
+      9.309818
+    ],
+    "enigmaticlegacy:etherium_chestplate": [
+      1859,
+      6.1129804
+    ],
+    "epicfight:stray_robe": [
+      4882,
+      0.0299
+    ],
+    "irons_spellbooks:archevoker_chestplate": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_chestplate": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_chestplate": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_chestplate": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:infernal_sorcerer_chestplate": [
+      3226,
+      2.3240905
+    ],
+    "irons_spellbooks:netherite_mage_chestplate": [
+      3227,
+      2.3227675
+    ],
+    "irons_spellbooks:paladin_chestplate": [
+      2797,
+      4.092196
+    ],
+    "irons_spellbooks:plagued_chestplate": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_chestplate": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_chestplate": [
+      3275,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_chestplate": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_chestplate": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:wandering_magician_chestplate": [
+      4136,
+      1.1396724
+    ],
+    "irons_spellbooks:wizard_chestplate": [
+      3240,
+      2.3055708
+    ],
+    "magical_relics:diamond_chestplate_artifact": [
+      3327,
+      2.190684
+    ],
+    "magical_relics:gold_chestplate_artifact": [
+      4548,
+      0.6010664
+    ],
+    "magical_relics:iron_chestplate_artifact": [
+      4155,
+      1.1153103
+    ],
+    "magical_relics:leather_chestplate_artifact": [
+      4900,
+      0.028099999
+    ],
+    "majruszsdifficulty:enderium_chestplate": [
+      2750,
+      4.200942
+    ],
+    "majruszsdifficulty:tattered_chestplate": [
+      4875,
+      0.030599998
+    ],
+    "minecraft:chainmail_chestplate": [
+      4589,
+      0.540316
+    ],
+    "minecraft:diamond_chestplate": [
+      3673,
+      1.7373508
+    ],
+    "minecraft:golden_chestplate": [
+      4655,
+      0.4136078
+    ],
+    "minecraft:iron_chestplate": [
+      4341,
+      0.8764657
+    ],
+    "minecraft:leather_chestplate": [
+      4937,
+      0.0244
+    ],
+    "minecraft:netherite_chestplate": [
+      3546,
+      1.9030677
+    ],
+    "naturesaura:depth_chest": [
+      2238,
+      5.316139
+    ],
+    "naturesaura:infused_iron_chest": [
+      4068,
+      1.2269194
+    ],
+    "naturesaura:sky_chest": [
+      3286,
+      2.2447827
+    ],
+    "somakespells:abyssium_chestplate": [
+      385,
+      9.184605
+    ],
+    "somakespells:aquamancer_chestplate": [
+      3247,
+      2.2963142
+    ],
+    "somakespells:ceranium_chestplate": [
+      385,
+      9.184605
+    ],
+    "somakespells:dark_metal_battlemage_chestplate": [
+      2376,
+      5.022479
+    ],
+    "traveloptics:abyssal_hide_armor_robe": [
+      299,
+      9.36409
+    ],
+    "traveloptics:cursed_wraithguard_chestplate": [
+      299,
+      9.36409
+    ],
+    "traveloptics:deepling_mage_armor_robe": [
+      3239,
+      2.3068933
+    ],
+    "traveloptics:forlorn_harbinger_robe": [
+      299,
+      9.36409
+    ],
+    "traveloptics:mechanized_exoskeleton_chestplate": [
+      180,
+      9.612577
+    ],
+    "traveloptics:primordial_crest_armor_chestplate": [
+      2889,
+      3.8715
+    ],
+    "traveloptics:riptide_sovereign_fincloak": [
+      299,
+      9.36409
+    ],
+    "traveloptics:tectonic_crest_armor_chestplate": [
+      61,
+      9.86122
+    ],
+    "wizards:arcane_robe_chest": [
+      4795,
+      0.038599998
+    ],
+    "wizards:fire_robe_chest": [
+      4795,
+      0.038599998
+    ],
+    "wizards:frost_robe_chest": [
+      4795,
+      0.038599998
+    ],
+    "wizards:netherite_arcane_robe_chest": [
+      4700,
+      0.0481
+    ],
+    "wizards:netherite_fire_robe_chest": [
+      4700,
+      0.0481
+    ],
+    "wizards:netherite_frost_robe_chest": [
+      4700,
+      0.0481
+    ],
+    "wizards:wizard_robe_chest": [
+      4870,
+      0.031099997
+    ]
+  },
+  "HEAD": {
+    "alexscaves:diving_helmet": [
+      4110,
+      1.173019
+    ],
+    "alexscaves:gingerbread_helmet": [
+      4387,
+      0.8169267
+    ],
+    "alexscaves:hazmat_mask": [
+      4312,
+      0.91383743
+    ],
+    "alexscaves:hood_of_darkness": [
+      4454,
+      0.7291897
+    ],
+    "alexscaves:primordial_helmet": [
+      4402,
+      0.7974141
+    ],
+    "aquaculture:neptunium_helmet": [
+      3262,
+      2.2764862
+    ],
+    "bloodmagic:livinghelmet": [
+      4005,
+      1.3078723
+    ],
+    "born_in_chaos_v1:damned_demomans_hat_helmet": [
+      4880,
+      0.0301
+    ],
+    "born_in_chaos_v1:dark_metal_armor_helmet": [
+      2225,
+      5.3436694
+    ],
+    "born_in_chaos_v1:killer_rabbit_ears_helmet": [
+      4900,
+      0.028099999
+    ],
+    "born_in_chaos_v1:lord_pumpkinheads_hat_helmet": [
+      2919,
+      3.7963035
+    ],
+    "born_in_chaos_v1:missionary_hat_helmet": [
+      4775,
+      0.040599998
+    ],
+    "born_in_chaos_v1:nightmare_mantleofthe_night_helmet": [
+      3427,
+      2.0590668
+    ],
+    "born_in_chaos_v1:spiny_shell_armor_helmet": [
+      4591,
+      0.53719383
+    ],
+    "born_in_chaos_v1:spiritual_guide_sombrero_helmet": [
+      4800,
+      0.038099997
+    ],
+    "cataclysm:bone_reptile_helmet": [
+      1366,
+      7.1410875
+    ],
+    "cataclysm:cursium_helmet": [
+      1535,
+      6.789111
+    ],
+    "cataclysm:ignitium_helmet": [
+      325,
+      9.309818
+    ],
+    "cataclysm:monstrous_helm": [
+      3546,
+      1.9030677
+    ],
+    "enigmaticlegacy:etherium_helmet": [
+      1633,
+      6.584849
+    ],
+    "epicfight:stray_hat": [
+      4882,
+      0.0299
+    ],
+    "irons_spellbooks:archevoker_helmet": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_helmet": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_helmet": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_helmet": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:gold_crown": [
+      3331,
+      2.1854107
+    ],
+    "irons_spellbooks:netherite_mage_helmet": [
+      3227,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_helmet": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_helmet": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_helmet": [
+      3275,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_helmet": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_helmet": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:tarnished_helmet": [
+      4931,
+      0.024999999
+    ],
+    "irons_spellbooks:wandering_magician_helmet": [
+      4136,
+      1.1396724
+    ],
+    "irons_spellbooks:wizard_hat": [
+      3240,
+      2.3055708
+    ],
+    "irons_spellbooks:wizard_helmet": [
+      3240,
+      2.3055708
+    ],
+    "magical_relics:diamond_helmet_artifact": [
+      3327,
+      2.190684
+    ],
+    "magical_relics:gold_helmet_artifact": [
+      4548,
+      0.6010664
+    ],
+    "magical_relics:iron_helmet_artifact": [
+      4155,
+      1.1153103
+    ],
+    "magical_relics:leather_helmet_artifact": [
+      4900,
+      0.028099999
+    ],
+    "majruszsdifficulty:enderium_helmet": [
+      2750,
+      4.200942
+    ],
+    "majruszsdifficulty:tattered_helmet": [
+      4875,
+      0.030599998
+    ],
+    "minecraft:chainmail_helmet": [
+      4589,
+      0.540316
+    ],
+    "minecraft:diamond_helmet": [
+      3673,
+      1.7373508
+    ],
+    "minecraft:golden_helmet": [
+      4655,
+      0.4136078
+    ],
+    "minecraft:iron_helmet": [
+      4341,
+      0.8764657
+    ],
+    "minecraft:leather_helmet": [
+      4937,
+      0.0244
+    ],
+    "minecraft:netherite_helmet": [
+      3546,
+      1.9030677
+    ],
+    "minecraft:turtle_helmet": [
+      4285,
+      0.948558
+    ],
+    "naturesaura:depth_helmet": [
+      2238,
+      5.316139
+    ],
+    "naturesaura:infused_iron_helmet": [
+      4068,
+      1.2269194
+    ],
+    "naturesaura:sky_helmet": [
+      3286,
+      2.2447827
+    ],
+    "somakespells:abyssium_helmet": [
+      385,
+      9.184605
+    ],
+    "somakespells:aquamancer_helmet": [
+      3247,
+      2.2963142
+    ],
+    "somakespells:ceranium_helmet": [
+      385,
+      9.184605
+    ],
+    "somakespells:dark_metal_battlemage_helmet": [
+      2376,
+      5.022479
+    ],
+    "traveloptics:abyssal_hide_armor_hat": [
+      299,
+      9.36409
+    ],
+    "traveloptics:cursed_wraithguard_crown": [
+      299,
+      9.36409
+    ],
+    "traveloptics:deepling_mage_armor_helmet": [
+      3239,
+      2.3068933
+    ],
+    "traveloptics:forlorn_harbinger_hood": [
+      299,
+      9.36409
+    ],
+    "traveloptics:mechanized_exoskeleton_helmet": [
+      180,
+      9.612577
+    ],
+    "traveloptics:primordial_crest_armor_helmet": [
+      2889,
+      3.8715
+    ],
+    "traveloptics:riptide_sovereign_hat": [
+      299,
+      9.36409
+    ],
+    "traveloptics:tectonic_crest_armor_helmet": [
+      61,
+      9.86122
+    ],
+    "wizards:arcane_robe_head": [
+      4795,
+      0.038599998
+    ],
+    "wizards:fire_robe_head": [
+      4795,
+      0.038599998
+    ],
+    "wizards:frost_robe_head": [
+      4795,
+      0.038599998
+    ],
+    "wizards:netherite_arcane_robe_head": [
+      4700,
+      0.0481
+    ],
+    "wizards:netherite_fire_robe_head": [
+      4700,
+      0.0481
+    ],
+    "wizards:netherite_frost_robe_head": [
+      4700,
+      0.0481
+    ],
+    "wizards:wizard_robe_head": [
+      4870,
+      0.031099997
+    ]
+  }
+}

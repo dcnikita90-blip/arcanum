@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:aether_shards_abyss_blindness_of_prophet",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "id": "e66a0942-bbb9-ffa8-89b3-c15a2b795960",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_abyss_shadow_veil"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/eye_green.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -503.078,
+  "positionY": -44.014,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

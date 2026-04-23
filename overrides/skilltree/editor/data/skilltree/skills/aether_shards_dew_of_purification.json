@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:aether_shards_dew_of_purification",
+  "bonuses": [
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.08
+    },
+    {
+      "type": "skilltree:effect_duration",
+      "effect_type": "beneficial",
+      "duration": 0.06,
+      "target": "player"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_grove_priest"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/heart_green.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 318.578,
+  "positionY": 667.913,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

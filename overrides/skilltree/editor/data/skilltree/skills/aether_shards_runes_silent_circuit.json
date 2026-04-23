@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_runes_silent_circuit",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "dfe29075-4cd6-1061-faf0-5bc1945bb1ab",
+      "name": "Skill",
+      "amount": 0.08,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_runes_rune_echo"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 360.01,
+  "positionY": -216.316,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

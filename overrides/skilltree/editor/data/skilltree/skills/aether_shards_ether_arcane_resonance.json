@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:aether_shards_ether_arcane_resonance",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "id": "54a04625-28ec-7571-197f-c396d1aab71d",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:mana_level"
+        },
+        "divisor": 0.1,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_ether_thin_edge"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 489.999,
+  "positionY": -122.171,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

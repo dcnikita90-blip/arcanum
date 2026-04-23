@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_catastrophe_edge",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "8a9e01cb-4fb3-e685-5eff-370e9396aa31",
+      "name": "Skill",
+      "amount": 0.08,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.04,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_ash_whirl"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -287.074,
+  "positionY": -810.672,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

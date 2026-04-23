@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:aether_shards_black_resonance",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.08,
+      "max_stacks": 0,
+      "effect": "minecraft:weakness",
+      "duration": 60,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_shadow_anomaly"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/potion_black_big.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -739.104,
+  "positionY": -306.147,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

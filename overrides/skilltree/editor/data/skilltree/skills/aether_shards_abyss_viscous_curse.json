@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:aether_shards_abyss_viscous_curse",
+  "bonuses": [
+    {
+      "type": "skilltree:effect_duration",
+      "effect_type": "harmful",
+      "duration": 0.04,
+      "target": "enemy"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_abyss_call_of_gloom"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_black_small.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -315.346,
+  "positionY": 78.625,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

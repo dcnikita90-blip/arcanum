@@ -1,0 +1,54 @@
+{
+  "id": "skilltree:aether_shards_heir_of_heart",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "2e3d1442-b67c-855a-5dbc-88ebeaa7525b",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.15
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "9258fbe9-c66a-1118-cfbd-7e194841b406",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_sacred_grove"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_prism_of_dawn"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_garden_of_sacrifice"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_sacred_grove",
+    "skilltree:aether_shards_garden_of_sacrifice"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/heart_yellow.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": 256.231,
+  "positionY": 956.267,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

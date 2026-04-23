@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:ashborn_center_4",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "5c5af7df-9e3a-4fe3-07ca-6d7baff88723",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:ashborn_center_3"
+    }
+  ],
+  "directConnections": [
+    "skilltree:ashborn_center_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_yellow.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Вспышка давления",
+  "titleColor": "",
+  "positionX": 0.0,
+  "positionY": -145.0,
+  "buttonSize": 20,
+  "cost": 3,
+  "isStartingPoint": false
+}

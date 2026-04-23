@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:aether_shards_wild_hematurge",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "a2dfbea6-1a2c-0737-49cf-be4996c3f226",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "id": "4a712252-7305-1e0d-e4d5-4cb524c25f76",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_nature_circle_of_rebirth"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_blood_priest_pact"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_nature_circle_of_rebirth",
+    "skilltree:aether_shards_blood_priest_pact"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_black.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -193.13,
+  "positionY": 651.997,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

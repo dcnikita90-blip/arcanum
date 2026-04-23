@@ -1,0 +1,41 @@
+{
+  "id": "skilltree:aether_shards_nature_quiet_source",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "6f0f3950-0426-a99f-03bd-6f7f465d47df",
+      "name": "Skill",
+      "amount": 0.08,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "e16f8acd-46ae-645d-03b6-e166d4738dfc",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_nature_beast_lord"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_nature_bark_of_life"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -96.277,
+  "positionY": 784.111,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

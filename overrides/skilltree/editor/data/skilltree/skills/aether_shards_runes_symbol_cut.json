@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_runes_symbol_cut",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "c0d17b52-91ed-43ba-3da6-b362e70c06f1",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_runes_gateway"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_indigo.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 128.76,
+  "positionY": -214.292,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

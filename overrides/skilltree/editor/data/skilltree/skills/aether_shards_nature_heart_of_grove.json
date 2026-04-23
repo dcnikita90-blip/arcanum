@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:aether_shards_nature_heart_of_grove",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 0.01,
+      "event_listener": {
+        "cooldown": 40,
+        "type": "skilltree:ticking"
+      },
+      "percentage_healing": true
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:summon_damage",
+      "id": "fe90623e-86d8-316a-d8e0-0099fb003f06",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_nature_breath_of_thicket"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_green.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -44.014,
+  "positionY": 503.078,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

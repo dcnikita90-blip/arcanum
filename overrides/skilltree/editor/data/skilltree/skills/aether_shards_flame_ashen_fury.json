@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:aether_shards_flame_ashen_fury",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "3ea453ae-4a6e-78e2-c189-6ff6610a4458",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": true,
+          "type": "skilltree:mana_level"
+        },
+        "divisor": 0.1,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_flame_volcanic_core"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/potion_red_big.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": 53.165,
+  "positionY": -607.679,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

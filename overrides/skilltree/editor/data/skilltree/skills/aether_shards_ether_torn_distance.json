@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_ether_torn_distance",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.06,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "b6b3f8c8-9632-6d4f-cb42-397b741b7e50",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_ether_light_channels"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/boots_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 503.078,
+  "positionY": -44.014,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

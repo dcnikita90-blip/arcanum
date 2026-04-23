@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:aether_shards_light_long_grace",
+  "bonuses": [
+    {
+      "type": "skilltree:effect_duration",
+      "effect_type": "beneficial",
+      "duration": 0.04,
+      "target": "player"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_light_gateway"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 128.76,
+  "positionY": 214.292,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

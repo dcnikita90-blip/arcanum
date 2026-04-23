@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_light_pure_flame",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "1e0e14ac-4a4a-a054-be8d-cb56e2a0f2ec",
+      "name": "Skill",
+      "amount": 0.14,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.08,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_light_guardian_radiance"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/torch.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": 314.173,
+  "positionY": 522.872,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

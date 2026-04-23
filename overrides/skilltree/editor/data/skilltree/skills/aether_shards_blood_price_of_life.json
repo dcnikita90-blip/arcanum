@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_blood_price_of_life",
+  "bonuses": [
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.08
+    },
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 3.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "type": "skilltree:on_kill"
+      },
+      "percentage_healing": false
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_blood_trophy_pulse"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_green.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -360.01,
+  "positionY": 216.316,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

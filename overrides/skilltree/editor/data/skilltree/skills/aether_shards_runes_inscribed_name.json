@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_runes_inscribed_name",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "91afc8ac-9019-71b0-1c12-aeb16c438e60",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "bcc86a8c-7713-b44e-5a29-878a1f165620",
+      "name": "Skill",
+      "amount": 0.08,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_runes_silent_circuit"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/potion_white_big.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": 522.872,
+  "positionY": -314.173,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

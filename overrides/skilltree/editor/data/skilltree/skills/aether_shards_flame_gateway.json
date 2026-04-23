@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_flame_gateway",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "fab5ae1e-d55d-f7ff-7121-097b7f41704a",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "id": "4d9617f8-461a-b198-8e74-366e4e21212b",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_core"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/torch.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "titleColor": "",
+  "positionX": 0.0,
+  "positionY": -170.0,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

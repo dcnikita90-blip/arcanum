@@ -1,0 +1,27 @@
+{
+  "id": "skilltree:aether_shards_chaos_crack_of_probability",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.03,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_chaos_broken_spark"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_indigo_small.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -278.579,
+  "positionY": -167.387,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

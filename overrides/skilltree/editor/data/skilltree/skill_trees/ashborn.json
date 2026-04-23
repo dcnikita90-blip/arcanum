@@ -1,0 +1,23 @@
+{
+  "skillIds": [
+    "skilltree:ashborn_start",
+    "skilltree:ashborn_left_1",
+    "skilltree:ashborn_right_1",
+    "skilltree:ashborn_left_2",
+    "skilltree:ashborn_right_2",
+    "skilltree:ashborn_left_3",
+    "skilltree:ashborn_right_3",
+    "skilltree:ashborn_left_4",
+    "skilltree:ashborn_right_4",
+    "skilltree:ashborn_left_5",
+    "skilltree:ashborn_right_5",
+    "skilltree:ashborn_center_1",
+    "skilltree:ashborn_center_2",
+    "skilltree:ashborn_center_3",
+    "skilltree:ashborn_center_4",
+    "skilltree:ashborn_key",
+    "skilltree:ashborn_final"
+  ],
+  "id": "skilltree:ashborn",
+  "skillLimitations": {}
+}

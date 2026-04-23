@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:ashborn_left_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "861dc0c4-98f8-4ac2-2bc1-b33ac279a99a",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:ashborn_left_1"
+    }
+  ],
+  "directConnections": [
+    "skilltree:ashborn_left_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/chili_pepper_red.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Пепельная погоня",
+  "titleColor": "",
+  "positionX": -165.0,
+  "positionY": 65.0,
+  "buttonSize": 16,
+  "cost": 1,
+  "isStartingPoint": false
+}

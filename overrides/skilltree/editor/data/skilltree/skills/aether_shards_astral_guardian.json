@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:aether_shards_astral_guardian",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "id": "40252298-c68a-7b59-c4d8-cf5b119d898d",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "5d91f283-02a7-7476-1401-897e713a5649",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_ether_flawless_circuit"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_light_martyr_of_dawn"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_ether_flawless_circuit",
+    "skilltree:aether_shards_light_martyr_of_dawn"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cross_green.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 651.997,
+  "positionY": 193.13,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

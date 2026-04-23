@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:aether_shards_ether_inertia_loop",
+  "bonuses": [
+    {
+      "type": "skilltree:effect_duration",
+      "effect_type": "harmful",
+      "duration": 0.1,
+      "target": "enemy"
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.08,
+      "max_stacks": 0,
+      "effect": "minecraft:slowness",
+      "duration": 80,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_ether_aether_burning"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_ether_piercing_impulse"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 923.068,
+  "positionY": 113.338,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

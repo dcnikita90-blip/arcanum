@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:aether_shards_cataclysm_of_embers",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "e0214644-7902-c324-4747-1076f55d41d1",
+      "name": "Skill",
+      "amount": 0.12,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.12,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.06,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_catastrophe_edge"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/torch.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": -261.294,
+  "positionY": -882.114,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

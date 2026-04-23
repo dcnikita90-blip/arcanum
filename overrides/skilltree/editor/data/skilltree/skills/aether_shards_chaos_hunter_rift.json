@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:aether_shards_chaos_hunter_rift",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.08,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_chaos_laughter_of_void"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_chaos_variable_tempo"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -529.469,
+  "positionY": -677.689,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

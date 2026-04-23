@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_nature_pack_call",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:summon_damage",
+      "id": "aaadb764-7362-7e38-76e2-5771c72ff0ac",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_nature_light_stride"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/chicken_leg.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -101.607,
+  "positionY": 407.524,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

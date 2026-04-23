@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:ashborn_right_5",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "08d3ff39-241c-b789-6d50-aa072fc4fb66",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:ashborn_right_4"
+    }
+  ],
+  "directConnections": [
+    "skilltree:ashborn_right_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Горн крови",
+  "titleColor": "",
+  "positionX": 340.0,
+  "positionY": -205.0,
+  "buttonSize": 24,
+  "cost": 4,
+  "isStartingPoint": false
+}

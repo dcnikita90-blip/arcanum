@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_abyss_throne_of_shadow",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_abyss_whisper_of_rift"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/heart_violet.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": -591.88,
+  "positionY": -147.572,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

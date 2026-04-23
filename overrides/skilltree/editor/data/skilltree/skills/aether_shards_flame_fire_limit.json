@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:aether_shards_flame_fire_limit",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.06,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.08,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_flame_blazing_breath"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/potion_double.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -44.014,
+  "positionY": -503.078,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

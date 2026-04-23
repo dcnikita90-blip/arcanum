@@ -1,0 +1,39 @@
+{
+  "id": "skilltree:aether_shards_blood_blood_of_victor",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 0.03,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "type": "skilltree:on_kill"
+      },
+      "percentage_healing": true
+    },
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.06,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_blood_warm_sacrifice"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_red.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -386.852,
+  "positionY": 324.608,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

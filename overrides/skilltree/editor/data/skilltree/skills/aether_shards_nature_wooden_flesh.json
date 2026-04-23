@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_nature_wooden_flesh",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "4aaf5201-05a3-a245-02ac-05ec9b1ac484",
+      "name": "Skill",
+      "amount": -0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_nature_sleeping_forest"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/apple_green.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": 147.572,
+  "positionY": 591.88,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

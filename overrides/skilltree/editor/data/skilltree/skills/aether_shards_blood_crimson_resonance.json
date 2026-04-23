@@ -1,0 +1,41 @@
+{
+  "id": "skilltree:aether_shards_blood_crimson_resonance",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 0.8,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      },
+      "percentage_healing": false
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "id": "2acd2445-17f3-f586-05ad-6904a07e1b29",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_blood_red_oath"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/skull.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -324.608,
+  "positionY": 386.852,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

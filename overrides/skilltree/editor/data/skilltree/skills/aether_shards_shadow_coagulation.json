@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:aether_shards_shadow_coagulation",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 0.6,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      },
+      "percentage_healing": false
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_crimson_reaper"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/heart_black.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -667.913,
+  "positionY": 318.578,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

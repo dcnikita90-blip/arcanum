@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:aether_shards_abyss_night_oath",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 0.7,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      },
+      "percentage_healing": false
+    },
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.08
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_abyss_abyss_leech"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/skull.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -503.078,
+  "positionY": 44.014,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

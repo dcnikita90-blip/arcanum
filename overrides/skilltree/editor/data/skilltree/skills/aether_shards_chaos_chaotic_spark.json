@@ -1,0 +1,39 @@
+{
+  "id": "skilltree:aether_shards_chaos_chaotic_spark",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.08,
+      "max_stacks": 0,
+      "effect": "minecraft:weakness",
+      "duration": 60,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:projectile_duplication",
+      "chance": 0.1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_chaos_warped_chance"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -216.316,
+  "positionY": -360.01,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

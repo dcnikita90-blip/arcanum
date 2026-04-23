@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_ether_time_distortion",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "6235a1df-85d7-8ee9-97df-9570191ac012",
+      "name": "Skill",
+      "amount": 0.08,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:casting_movespeed",
+      "id": "cd8f843e-2bcf-bf14-35c2-1371de4a699d",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_ether_flexible_contour"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/potion_cyan_big.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 388.516,
+  "positionY": 33.991,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

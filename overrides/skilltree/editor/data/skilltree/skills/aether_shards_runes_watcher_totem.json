@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_runes_watcher_totem",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.06,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "81929a00-1817-1731-dbf5-9dce3a55461a",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_runes_rebound_seal"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/treasure_chest_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 324.608,
+  "positionY": -386.852,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:ashborn_center_2",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "id": "ec1f065c-c826-abbe-e4ae-56b7e7af221d",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:ashborn_center_1"
+    }
+  ],
+  "directConnections": [
+    "skilltree:ashborn_center_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/heart_yellow.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Жар под кожей",
+  "titleColor": "",
+  "positionX": 0.0,
+  "positionY": 50.0,
+  "buttonSize": 16,
+  "cost": 1,
+  "isStartingPoint": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_seal_shift",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "e1786611-b06a-ea86-2a94-825131f8fdd6",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "d63e74bb-6267-68ae-f047-64e2f65b9a58",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_arcanomechanic"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 667.913,
+  "positionY": -318.578,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

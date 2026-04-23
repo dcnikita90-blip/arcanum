@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:aether_shards_light_holding_ray",
+  "bonuses": [
+    {
+      "type": "skilltree:effect_duration",
+      "effect_type": "harmful",
+      "duration": 0.1,
+      "target": "enemy"
+    },
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.08,
+      "max_stacks": 0,
+      "effect": "minecraft:weakness",
+      "duration": 80,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_light_last_vow"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_light_dawn_judgement"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cross_green.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 572.565,
+  "positionY": 732.85,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

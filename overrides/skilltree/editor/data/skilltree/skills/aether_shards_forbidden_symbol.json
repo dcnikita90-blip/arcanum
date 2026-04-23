@@ -1,0 +1,53 @@
+{
+  "id": "skilltree:aether_shards_forbidden_symbol",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "e4a58139-3ed9-8783-38a9-833814e21f8b",
+      "name": "Skill",
+      "amount": 0.12,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.08,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_black_singularity"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_cataclysm_of_embers"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_black_singularity",
+    "skilltree:aether_shards_cataclysm_of_embers"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": -956.267,
+  "positionY": -256.231,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

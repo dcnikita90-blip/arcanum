@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:aether_shards_abyss_hunt_of_night",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.08,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_abyss_living_darkness"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_abyss_whisper_of_drain"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/bow_diamond.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -853.59,
+  "positionY": -104.808,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

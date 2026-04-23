@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:aether_shards_living_template",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "id": "47244662-9f61-9904-f75b-14b5072c3f90",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:projectile_duplication",
+      "chance": 0.08
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_seal_shift"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/potion_double.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 739.104,
+  "positionY": -306.147,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

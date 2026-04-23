@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:aether_shards_flame_siege_heat",
+  "bonuses": [
+    {
+      "type": "skilltree:effect_duration",
+      "effect_type": "harmful",
+      "duration": 0.12,
+      "target": "enemy"
+    },
+    {
+      "type": "skilltree:inflict_ignite",
+      "chance": 0.1,
+      "duration": 5,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_flame_ashen_fury"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_flame_colossus_executioner"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/torch.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 113.338,
+  "positionY": -923.068,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

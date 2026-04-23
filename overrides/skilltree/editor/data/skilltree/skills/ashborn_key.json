@@ -1,0 +1,77 @@
+{
+  "id": "skilltree:ashborn_key",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "51015b45-99f3-ba80-7b9c-61310786d5bf",
+      "name": "Skill",
+      "amount": 0.12,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "id": "8c13a566-f606-3748-8c08-183fbbf3dea4",
+      "name": "Skill",
+      "amount": 0.08,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.08,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:ashborn_center_4"
+    }
+  ],
+  "directConnections": [
+    "skilltree:ashborn_center_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/heart_yellow.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Ненасытное пламя",
+  "titleColor": "FF8A3D",
+  "positionX": 0.0,
+  "positionY": -240.0,
+  "buttonSize": 32,
+  "cost": 4,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Ненасытное пламя больше не согревает: оно требует движения, ярости и постоянной подпитки."
+    },
+    {
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Этот узел ломает осторожный стиль и превращает огонь в силу, которая всегда хочет большего."
+    }
+  ]
+}

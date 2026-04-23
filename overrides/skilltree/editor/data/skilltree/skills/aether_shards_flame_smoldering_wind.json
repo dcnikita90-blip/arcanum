@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:aether_shards_flame_smoldering_wind",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_ignite",
+      "chance": 0.06,
+      "duration": 4,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_flame_cinder_veins"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_red.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -78.625,
+  "positionY": -315.346,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

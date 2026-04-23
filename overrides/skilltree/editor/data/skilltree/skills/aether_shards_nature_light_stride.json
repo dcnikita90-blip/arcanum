@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_nature_light_stride",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "45f939cf-f60d-f197-af41-2f7d6c27e917",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_nature_long_bloom"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/boots_leather.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -78.625,
+  "positionY": 315.346,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

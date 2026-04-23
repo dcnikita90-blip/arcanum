@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_chaos_broken_spark",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "5ff2d465-a363-4ef1-fa3f-bbbb6ce52b5b",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_chaos_gateway"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/heart_violet.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -214.292,
+  "positionY": -128.76,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

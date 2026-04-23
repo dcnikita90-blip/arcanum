@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_nature_leaf_armor",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "id": "af66a005-39a9-786a-ca34-b5dcad768ec7",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_nature_gateway"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/apple_green.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 24.839,
+  "positionY": 283.915,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

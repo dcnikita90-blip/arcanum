@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_abyss_night_shroud",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "id": "be84a45e-74b5-15f9-45a3-1e3f2d3a0959",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_abyss_gateway"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/heart_violet.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -283.915,
+  "positionY": -24.839,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

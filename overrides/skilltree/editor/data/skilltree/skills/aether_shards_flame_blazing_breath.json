@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_flame_blazing_breath",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "14234b75-5f28-3963-efc0-00f3593b19c2",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_flame_coal_fortitude"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_yellow.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -33.991,
+  "positionY": -388.516,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

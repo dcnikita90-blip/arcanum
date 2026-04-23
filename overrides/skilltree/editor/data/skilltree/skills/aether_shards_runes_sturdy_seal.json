@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_runes_sturdy_seal",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "id": "8784c838-ce6b-7ec9-9a82-fff2e1bd591b",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_runes_gateway"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cross_green.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 183.194,
+  "positionY": -218.323,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

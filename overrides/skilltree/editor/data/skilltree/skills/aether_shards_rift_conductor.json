@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:aether_shards_rift_conductor",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "id": "5a09feac-8835-b765-bac8-a42728286856",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "75bdbe0c-2ec1-d7c7-6bcb-3a80517cd6f1",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_abyss_throne_of_shadow"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_chaos_child_of_rift"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_abyss_throne_of_shadow",
+    "skilltree:aether_shards_chaos_child_of_rift"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -651.997,
+  "positionY": -193.13,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

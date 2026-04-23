@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:aether_shards_arcanomechanic",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "baaf42d4-9a85-0246-785d-45f7a22ad707",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "id": "b386cfbc-c17f-7b85-00e9-c01c236796c7",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_runes_inscribed_name"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_ether_threadwalker"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_runes_inscribed_name",
+    "skilltree:aether_shards_ether_threadwalker"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/potion_cyan_big.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 597.596,
+  "positionY": -324.468,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

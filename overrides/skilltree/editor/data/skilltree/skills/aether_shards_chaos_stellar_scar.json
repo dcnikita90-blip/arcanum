@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:aether_shards_chaos_stellar_scar",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.12,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "7ca93140-84ab-5d8a-73f8-dbbab613b768",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_chaos_wild_stream"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -386.852,
+  "positionY": -324.608,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

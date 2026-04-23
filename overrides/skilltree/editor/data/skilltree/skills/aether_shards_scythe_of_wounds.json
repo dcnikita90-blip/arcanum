@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:aether_shards_scythe_of_wounds",
+  "bonuses": [
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.08
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": -0.05,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_oath_of_drain"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": -810.672,
+  "positionY": 287.074,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

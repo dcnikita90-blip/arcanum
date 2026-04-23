@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_nature_beast_lord",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:summon_damage",
+      "id": "c8c20b0a-606c-f8ac-7875-9da931bd6fc5",
+      "name": "Skill",
+      "amount": 0.18,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": -0.08,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_nature_heart_of_grove"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/chicken.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": -53.165,
+  "positionY": 607.679,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

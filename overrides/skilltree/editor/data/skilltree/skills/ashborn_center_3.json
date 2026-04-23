@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:ashborn_center_3",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "3612ff2a-df66-53e1-9c32-13b6570ab0c3",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:ashborn_center_2"
+    }
+  ],
+  "directConnections": [
+    "skilltree:ashborn_center_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_yellow.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Пепельный отпор",
+  "titleColor": "",
+  "positionX": 0.0,
+  "positionY": -45.0,
+  "buttonSize": 20,
+  "cost": 2,
+  "isStartingPoint": false
+}

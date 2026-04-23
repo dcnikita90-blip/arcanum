@@ -1,0 +1,41 @@
+{
+  "id": "skilltree:aether_shards_runes_saving_circuit",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "5f08471f-bda3-7587-23c7-f3b1fc6f2e36",
+      "name": "Skill",
+      "amount": 0.08,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "52cc41e3-8ea8-625d-f620-b26a9ae551c3",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_runes_architect_seal"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_runes_stone_scheme"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 622.528,
+  "positionY": -486.373,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

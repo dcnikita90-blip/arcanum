@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:ashborn_right_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "id": "9d87832e-29c1-532a-0838-224c28969b82",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:ashborn_start"
+    }
+  ],
+  "directConnections": [
+    "skilltree:ashborn_start"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Рука плавильщика",
+  "titleColor": "",
+  "positionX": 90.0,
+  "positionY": 145.0,
+  "buttonSize": 16,
+  "cost": 1,
+  "isStartingPoint": false
+}

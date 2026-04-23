@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:aether_shards_grove_priest",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "f4444af5-de2d-9fea-5402-695abaefee3f",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "072b6197-3cc3-9ed4-cb0e-94d0321afe6a",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_light_pure_flame"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_nature_wooden_flesh"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_light_pure_flame",
+    "skilltree:aether_shards_nature_wooden_flesh"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/apple_green.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 324.468,
+  "positionY": 597.596,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

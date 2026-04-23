@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_runes_gateway",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "6c1ce2ed-5ada-5b46-21d0-1749784c456a",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "id": "97d66154-9fb0-0d40-60f3-db267b004fb0",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_core"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/potion_indigo.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "titleColor": "",
+  "positionX": 120.208,
+  "positionY": -120.208,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

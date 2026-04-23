@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:aether_shards_ember_engraving",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_ignite",
+      "chance": 0.08,
+      "duration": 5,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:effect_duration",
+      "effect_type": "harmful",
+      "duration": 0.06,
+      "target": "enemy"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_seal_smith"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_red_big.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 247.017,
+  "positionY": -697.555,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

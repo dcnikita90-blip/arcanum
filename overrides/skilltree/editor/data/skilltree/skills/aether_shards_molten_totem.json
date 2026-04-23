@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_molten_totem",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "f66bb27b-0c4a-8db2-fc7f-89f86baf10c8",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "3f4f60b5-927e-1199-1d66-6137e4e0a0bd",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_battle_seal"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/torch.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 370.24,
+  "positionY": -776.223,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

@@ -1,0 +1,66 @@
+{
+  "id": "skilltree:ashborn_final",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "cb43dbd7-0e09-9168-0038-2c308250b1c7",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "id": "2a95f84a-b919-593e-19b5-89cd62f1b5c9",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:grant_spell",
+      "spell_id": "irons_spellbooks:fireball",
+      "spell_level": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:ashborn_key"
+    }
+  ],
+  "directConnections": [
+    "skilltree:ashborn_key"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/heart_red.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Ядро вулкана",
+  "titleColor": "FF8A3D",
+  "positionX": 0.0,
+  "positionY": -330.0,
+  "buttonSize": 32,
+  "cost": 5,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "Ядро вулкана пробуждает память о мире, где магия текла через раскалённые недра."
+    },
+    {
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "На вершине пути сама земля начинает питать твоё пламя."
+    }
+  ]
+}

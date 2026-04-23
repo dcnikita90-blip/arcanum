@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:aether_shards_blood_fearless_wound",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.04,
+      "operation": 1,
+      "player_condition": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:health_level"
+        },
+        "required_value": 1.0,
+        "logic": "LESS",
+        "type": "skilltree:numeric_value"
+      },
+      "damage_condition": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_blood_gateway"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/heart_red.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -214.292,
+  "positionY": 128.76,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

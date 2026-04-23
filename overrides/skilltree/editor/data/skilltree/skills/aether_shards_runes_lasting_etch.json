@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_runes_lasting_etch",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "1c599bcb-a5b8-c1e4-c9c2-c19276194c28",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_runes_symbol_cut"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_gray.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 167.387,
+  "positionY": -278.579,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

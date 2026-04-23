@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:aether_shards_blood_blood_armor",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "id": "410b6e24-ef7e-defa-5b86-c89a1f84c612",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_blood_gateway"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/heart_black.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -218.323,
+  "positionY": 183.194,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

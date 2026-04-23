@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:aether_shards_seal_smith",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "2fa27086-53f1-c225-9a07-a74808243589",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "1dfb96d0-1d83-eb44-41de-c9e91fd69fa8",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_flame_devourer_flame"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "skilltree:aether_shards_runes_master_preparation"
+    }
+  ],
+  "directConnections": [
+    "skilltree:aether_shards_flame_devourer_flame",
+    "skilltree:aether_shards_runes_master_preparation"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/torch.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 193.13,
+  "positionY": -651.997,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

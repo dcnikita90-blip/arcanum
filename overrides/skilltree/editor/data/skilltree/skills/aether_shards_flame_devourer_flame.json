@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:aether_shards_flame_devourer_flame",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "64212a2f-afaa-be51-de11-c0de251f9e37",
+      "name": "Skill",
+      "amount": 0.14,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "9a220f57-27fe-c31f-4066-a2306ab53ad5",
+      "name": "Skill",
+      "amount": -0.06,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_flame_ashen_trail"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": 147.572,
+  "positionY": -591.88,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

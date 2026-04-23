@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:aether_shards_light_immaculate_will",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "18639a19-e28d-7d2c-f983-06f3761d1f5c",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "value_provider": {
+          "percentage": true,
+          "missing": false,
+          "type": "skilltree:mana_level"
+        },
+        "divisor": 0.1,
+        "type": "skilltree:numeric_value"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:aether_shards_light_consecrated_skin"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "titleColor": "",
+  "positionX": 386.852,
+  "positionY": 324.608,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}
