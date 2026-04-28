@@ -1,0 +1,13 @@
+{
+  "maintenance": {
+    "enabled": false,
+    "title": "Технические работы",
+    "message": "Сейчас лаунчер временно недоступен. Зайди чуть позже."
+  },
+  "launcher": {
+    "version": "1.0.1",
+    "packageUrl": "https://github.com/dcnikita90-blip/arcanum/releases/download/large-files-1.0/Arcanum-Launcher-Update-1.0.1.zip",
+    "packageType": "zip",
+    "notes": "Новая версия лаунчера скачивается прямо из Arcanum без переустановки."
+  }
+}
